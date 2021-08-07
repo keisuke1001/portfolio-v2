@@ -39,7 +39,6 @@ export default {
 }
 .logoImg {
   height: 24px;
-  margin-left: -6px;
 }
 .topImg {
   height: 42px;
