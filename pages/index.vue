@@ -60,9 +60,12 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   justify-content: center;
   gap: 40px;
-  padding: 10px;
 }
-
+@media screen and (max-width: 999px) {
+  .workWrap {
+    padding: 10px;
+  }
+}
 .card img {
   border: 1px solid #ddd;
 }
