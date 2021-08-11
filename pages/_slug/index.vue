@@ -6,6 +6,10 @@
         <h2 class="title">{{ title }}</h2>
         <a :href="gitlink" class="gitlink">{{ GitHub }}</a>
       </div>
+      <div class="text">
+        <p class="charge">{{ charge }}</p>
+        <p class="technology">{{ Technology }}</p>
+      </div>
       <div class="img_list">
         <img :src="img1.url" alt="" />
         <img :src="img2.url" alt="" />
@@ -74,6 +78,12 @@ main {
   border: 1px solid #ddd;
   margin: 30px 0;
 }
+.charge,
+.technology {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
 @media screen and (max-width: 767px) {
   .slugtext {
     display: block;
@@ -86,6 +96,9 @@ main {
   }
   .img_list {
     padding: 0 10px;
+  }
+  .text {
+    padding: 40px 10px 10px 10px;
   }
 }
 </style>
