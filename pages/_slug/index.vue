@@ -11,9 +11,10 @@
         <p class="technology">{{ Technology }}</p>
       </div>
       <div class="img_list">
-        <img :src="img1.url" alt="" />
-        <img :src="img2.url" alt="" />
-        <img :src="img3.url" alt="" />
+        <img v-if="img1 != null" :src="img1.url" alt="" />
+        <img v-if="img2 != null" :src="img2.url" alt="" />
+        <img v-if="img3 != null" :src="img3.url" alt="" />
+        <img v-if="img4 != null" :src="img4.url" alt="" />
       </div>
     </main>
     <Footer />
