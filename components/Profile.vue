@@ -9,7 +9,7 @@
           2000年10月生まれ。富山県出身。日本工学院専門学校 Webクリエイター科
         </p>
         <p>ゲームとラーメンが好き</p>
-        <p>HTML5 / CSS / SCSS / javascript / Adobe XD</p>
+        <p>HTML5 / CSS / SCSS / javascript / Nuxt.js / Vue.js / Tailwind / Adobe XD</p>
       </div>
       <div class="link">
         <a href="https://github.com/keisuke1001">
